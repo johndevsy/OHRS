@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Overpass:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+/* navbar css*/
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-brand {
+    font-family: 'Castoro Titling', cursive;
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+
+.navbar-brand span {
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    margin-bottom: 5px;
+}
+
+.navbar-toggler {
+    border: 1px solid rgba(0, 0, 0, .100);
+    border-radius: 5px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.bi {
+    color: #0d6efd;
+}
+
+.nav-link {
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+
+.nav-link .book {
+    font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+}
+
+.dropdown-menu {
+    border: 1px solid rgba(0, 0, 0, .100);
+    border-radius: 5px;
+    font-size: medium;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.dropdown-divider {
+    border-top: 1px solid rgba(0, 0, 0, .100);
+}
+
+.dropdown-item {
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+}
+
+.dropdown-item:active {
+    box-shadow: none;
+}
+
+.dropdown-toggle:not([dissable]):after {
+    color: #0d6efd;
+}
+
+.dropdown-toggle::after {
+    vertical-align: 0.1em;
+}
+
+/* home css */
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-caption {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption h1 {
+    font-family: 'Castoro Titling', cursive;
+    letter-spacing: 1px;
+    position: relative;
+    top: 46%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 5vh;
+}
+
+.carousel-caption p {
+    font-family: 'Josefin Slab', serif;
+    letter-spacing: 1px;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* reservation css */
+
+.reserve{
+    position: relative;
+    background-color: white;
+    padding: 20px 20px;
+    margin-top: -200px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+
+.reserve form{
+    margin-right: 22px;
+    margin-left: 5px;
+}
+
+.res{
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.reserve h6{
+    text-align: center;
+}
+
+.row input:focus{
+    box-shadow: none;
+}
+
+.lab{
+    font-family: 'Josefin Slab', serif;
+    letter-spacing: 1px;
+    margin-left: 11px;
+}
+
+.lab h6{
+    font-weight: bold;
+}
+
+/* about css */
+
+.about {
+    text-align: center;
+    padding-top: 270px;
+}
+
+.about h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.lineabout {
+    width: 100px;
+    height: 2px;
+    background-color: #0d6efd;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.about p {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, .100);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card img {
+    height: auto;
+    width: auto;
+}
+
+.card-body h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.card-body p {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.card-body .btn {
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px solid #0d6efd;
+    color: white;
+    background-color: #0d6efd;
+    border-radius: 5px;
+    font-size: small;
+    transition: all 0.2s ease-in;
+}
+
+.card-body .btn:focus {
+    box-shadow: none;
+}
+
+.card-body .btn:hover {
+    color: #0d6efd;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #0d6efd;
+}
+
+/* total css */
+
+.counter {
+    top: 20px;
+    padding: 20px 0;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .100);
+}
+
+.count-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: medium;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.counter p {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.col {
+    margin-top: 20px;
+}
+
+/* contact css */
+
+.contact {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.contact h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.linecontact {
+    width: 100px;
+    height: 2px;
+    background-color: #0d6efd;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.contact p {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body .bi {
+    color: #0d6efd;
+    font-size: 50px;
+}
+
+.touch {
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+form input {
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%);
+    border: none;
+    border: 1px solid rgba(0, 0, 0, .100);
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 5px;
+    letter-spacing: 1px;
+    background-color: white;
+    margin: 10px 10px;
+    outline: none;
+}
+
+form input::placeholder {
+    color: #6c757d;
+}
+
+form textarea::placeholder {
+    color: #6c757d;
+}
+
+form textarea {
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%);
+    border: none;
+    border: 1px solid rgba(0, 0, 0, .100);
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: white;
+    margin: 10px 10px;
+    outline: none;
+}
+
+input button {
+    background-color: #ffc107;
+}
+
+::placeholder {
+    color: black;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+}
+
+.linetouch {
+    width: 100px;
+    height: 2px;
+    background-color: #0d6efd;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+form .button {
+    background-color: #0d6efd;
+    font-weight: bold;
+    color: white;
+    transition: all 0.2s ease-in;
+}
+
+form .button:hover {
+    background-color: transparent;
+    font-weight: bold;
+    color: #0d6efd;
+    border: 1px solid #0d6efd;
+}
+
+.align form {
+    margin-right: 15px
+}
+
+.reserve .button{
+    position: relative;
+    text-align: center;
+}
+/* footer css*/
+
+.copyright {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #0d6efd;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 200px;
+}
+
+.copyright a {
+    color: white;
+    font-family: 'Josefin Slab', serif;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.copyright .bi {
+    color: white;
+}
+
+.copyright a:hover {
+    color: #ffc107;
+}
+
+.fus .bi:hover {
+    color: #ffc107;
+}
+
+.tas a:hover {
+    color: #ffc107;
+}
